@@ -6,8 +6,8 @@ import 'package:login_auth/widgets/custom_icon_button.dart';
 class BiometricsSetupScreen extends StatelessWidget {
   const BiometricsSetupScreen({Key? key})
       : super(
-    key: key,
-  );
+          key: key,
+        );
 
   @override
   Widget build(BuildContext context) {

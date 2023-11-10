@@ -10,8 +10,8 @@ import 'package:login_auth/widgets/custom_text_form_field.dart';
 class SignupScreen extends StatelessWidget {
   SignupScreen({Key? key})
       : super(
-    key: key,
-  );
+          key: key,
+        );
 
   TextEditingController passwordController = TextEditingController();
 
@@ -57,7 +57,7 @@ class SignupScreen extends StatelessWidget {
                         ),
                         TextSpan(
                           text:
-                          "\nWe need an email for notifications and a password for login purpose.   \n",
+                              "\nWe need an email for notifications and a password for login purpose.   \n",
                           style: theme.textTheme.bodyMedium,
                         ),
                       ],
@@ -75,10 +75,10 @@ class SignupScreen extends StatelessWidget {
                   controller: passwordController,
                   hintText: "alexander@gmail.com",
                   hintStyle:
-                  CustomTextStyles.bodyLargeIBMPlexSansOnErrorContainer,
+                      CustomTextStyles.bodyLargeIBMPlexSansOnErrorContainer,
                   textInputType: TextInputType.emailAddress,
                   borderDecoration:
-                  TextFormFieldStyleHelper.fillOnPrimaryContainer,
+                      TextFormFieldStyleHelper.fillOnPrimaryContainer,
                 ),
                 SizedBox(height: 29.v),
                 _buildSetAPasswordRow(context),
@@ -95,7 +95,7 @@ class SignupScreen extends StatelessWidget {
                     vertical: 14.v,
                   ),
                   borderDecoration:
-                  TextFormFieldStyleHelper.fillOnPrimaryContainer,
+                      TextFormFieldStyleHelper.fillOnPrimaryContainer,
                 ),
                 SizedBox(height: 21.v),
                 _buildAgreementTextEnUsCheckBox(context),

@@ -29,12 +29,10 @@
 //
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:login_auth/presentation/sign_in_screen/sign_in_screen.dart';
 import 'package:login_auth/presentation/sign_up_screen/sign_up_screen.dart';
 import 'package:login_auth/routes/app_routes.dart';
 // import 'package:flutter/scheduler.dart';
 import 'package:login_auth/theme/theme_helper.dart';
-import 'package:login_auth/routes/app_routes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -60,4 +58,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
